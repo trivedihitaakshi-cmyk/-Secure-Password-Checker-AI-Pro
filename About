@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About SecurePass</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<nav>
+  <h2>🔐 SecurePass AI Pro</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="thankyou.html">Thank You</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="card">
+    <h1>About Password Security</h1>
+    <p>
+      A strong password protects your personal data from hackers, brute-force attacks,
+      and phishing attempts.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>🔥 How to Create Strong Password</h2>
+    <ul>
+      <li>Use 12+ characters</li>
+      <li>Mix uppercase & lowercase letters</li>
+      <li>Add numbers and symbols</li>
+      <li>Avoid names or birthdays</li>
+      <li>Use different passwords for every account</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>⚠️ Risks of Weak Passwords</h2>
+    <p>
+      Weak passwords can be cracked in seconds and may lead to account hacking,
+      data theft, and identity misuse.
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
