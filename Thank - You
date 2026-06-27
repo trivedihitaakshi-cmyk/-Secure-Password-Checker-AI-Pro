@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Thank You</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<nav>
+  <h2>🔐 SecurePass AI Pro</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="thankyou.html">Thank You</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="card">
+    <h1>🙏 Thank You</h1>
+    <p>Thank you for using SecurePass AI Pro.</p>
+  </div>
+
+  <div class="card">
+    <h2>⚠️ Cyber Awareness</h2>
+    <p>
+      Always use strong passwords, enable 2FA, and never share your credentials
+      with anyone.
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
