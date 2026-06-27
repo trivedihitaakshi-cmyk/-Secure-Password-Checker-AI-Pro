@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SecurePass AI Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<nav>
+  <h2>🔐 SecurePass AI Pro</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="thankyou.html">Thank You</a>
+  </div>
+</nav>
+
+<div class="hero">
+
+  <h1>Password Verification System</h1>
+  <p>Real-time security analysis engine</p>
+
+  <div class="inputBox">
+    <input type="password" id="password" placeholder="Enter password">
+    <button class="toggle" onclick="togglePass()">👁️</button>
+  </div>
+
+  <div class="bar">
+    <div id="strengthBar"></div>
+  </div>
+
+  <h2 id="score">Score: 0 / 100</h2>
+  <div id="status" class="status">NOT CHECKED</div>
+
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🔍 Security Checklist</h2>
+    <p id="len">❌ At least 8 characters</p>
+    <p id="upper">❌ Uppercase letter</p>
+    <p id="lower">❌ Lowercase letter</p>
+    <p id="num">❌ Number</p>
+    <p id="sym">❌ Symbol</p>
+  </div>
+
+  <div class="card">
+    <h2>🧠 AI Feedback</h2>
+    <p id="feedback">Waiting for input...</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
